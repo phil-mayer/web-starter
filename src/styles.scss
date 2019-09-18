@@ -1,0 +1,23 @@
+html {
+    font-size: 12px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    font-size: 1.2rem;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+
+    .column { max-width: 50%; }
+}
+
+.placeholder-image {
+    margin: 5px 5%;
+    width: 90%;
+}

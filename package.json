@@ -1,0 +1,21 @@
+{
+  "name": "web-starter",
+  "version": "1.0.0",
+  "description": "Boilerplate repository for simple single-page sites including Parcel bundling, SCSS, and PostCSS auto-prefixing",
+  "main": "index.html",
+  "repository": "https://github.com/phil-mayer/web-starter.git",
+  "author": "Phil Mayer <phil.mayer93@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "run-dev": "parcel ./src/index.html --open --port 5000"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
+    "postcss-modules": "^1.4.1"
+  },
+  "devDependencies": {}
+}
