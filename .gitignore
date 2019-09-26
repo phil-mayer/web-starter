@@ -14,3 +14,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# OS-generated
+.DS_Store
