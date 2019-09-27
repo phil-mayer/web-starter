@@ -2,7 +2,7 @@
   "name": "web-starter",
   "version": "1.0.0",
   "description": "Boilerplate repository for simple single-page sites including Parcel bundling, SCSS, and PostCSS auto-prefixing",
-  "main": "index.html",
+  "main": "src/index.html",
   "repository": "https://github.com/phil-mayer/web-starter.git",
   "author": "Phil Mayer <phil.mayer93@gmail.com>",
   "license": "UNLICENSED",
