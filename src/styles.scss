@@ -1,5 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
+    // background-color: grey;
     font-size: 12px;
+}
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 992px;
+    width: 100%;
 }
 
 header h1 {
@@ -10,14 +26,6 @@ main {
     font-size: 1.2rem;
 }
 
-.row {
-    display: flex;
-    flex-flow: row nowrap;
-
-    .column { max-width: 50%; }
-}
-
-.placeholder-image {
-    margin: 5px 5%;
-    width: 90%;
+.test-success {
+    color: green;
 }
