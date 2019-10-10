@@ -8,7 +8,8 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "build": "parcel build ./src/index.html",
+    "clean": "rm -rf dist",
+    "build": "yarn clean && parcel build ./src/index.html --public-url ./",
     "run-dev": "parcel ./src/index.html --open --port 5000"
   },
   "dependencies": {
