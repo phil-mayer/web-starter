@@ -33,7 +33,7 @@ function testSpread() {
     const integers = [1, 2, 3, 4, 5, 5];
     const set = new Set(integers);
 
-    const uniqueValues = [ ...set ];
+    const uniqueValues = [...set];
     const testResultNode = document.querySelector('#spread-result');
     if (uniqueValues.length === 5 && testResultNode) {
         testResultNode.innerText = 'OK';
