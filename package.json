@@ -2,15 +2,15 @@
     "name": "web-starter",
     "version": "1.0.0",
     "description": "Boilerplate repository for simple single-page sites including Parcel bundling, SCSS, and PostCSS auto-prefixing",
-    "main": "src/index.html",
+    "main": "src/index.pug",
     "repository": "https://github.com/phil-mayer/web-starter.git",
     "author": "Phil Mayer <phil.mayer93@gmail.com>",
     "license": "UNLICENSED",
     "private": true,
     "scripts": {
         "clean": "rm -rf dist",
-        "build": "yarn clean && parcel build ./src/index.html --public-url ./",
-        "run:dev": "parcel ./src/index.html --open --port 5000",
+        "build": "yarn clean && parcel build ./src/index.pug --public-url ./",
+        "run:dev": "parcel ./src/index.pug --open --port 5000",
         "lint:commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
         "lint:source": "pretty-quick --staged"
     },
@@ -23,7 +23,6 @@
         "node-sass": "^4.12.0",
         "parcel-bundler": "^1.12.3",
         "postcss-modules": "^1.4.1",
-        "posthtml-include": "^1.3.3",
         "prettier": "^1.19.1",
         "pretty-quick": "^2.0.1"
     },
@@ -34,7 +33,8 @@
         "@commitlint/cli": "^8.2.0",
         "@commitlint/config-conventional": "^8.2.0",
         "eslint-plugin-jsdoc": "^15.11.1",
-        "parcel-plugin-eslint": "^1.0.7"
+        "parcel-plugin-eslint": "^1.0.7",
+        "pug": "^2.0.4"
     },
     "husky": {
         "hooks": {
