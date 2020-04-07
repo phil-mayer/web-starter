@@ -23,7 +23,7 @@
         "node-sass": "^4.12.0",
         "parcel-bundler": "^1.12.3",
         "postcss-modules": "^1.4.1",
-        "prettier": "^2.0.2",
+        "prettier": "^2.0.4",
         "pretty-quick": "^2.0.1"
     },
     "devDependencies": {
