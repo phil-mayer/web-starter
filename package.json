@@ -8,11 +8,11 @@
     "license": "UNLICENSED",
     "private": true,
     "scripts": {
-        "clean": "rm -rf dist",
+        "clean": "rm -rf .cache dist",
         "build": "yarn clean && parcel build ./src/index.pug --public-url ./",
         "run:dev": "parcel ./src/index.pug --open --port 5000",
         "lint:commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-        "lint:source": "pretty-quick --staged"
+        "format:source": "pretty-quick --staged"
     },
     "dependencies": {
         "@babel/plugin-syntax-async-generators": "^7.2.0",
@@ -39,7 +39,7 @@
     "husky": {
         "hooks": {
             "commit-msg": "yarn lint:commit-msg",
-            "pre-commit": "yarn lint:source"
+            "pre-commit": "yarn format:source"
         }
     }
 }
