@@ -32,7 +32,7 @@
         "@babel/preset-env": "^7.10.2",
         "@commitlint/cli": "^8.2.0",
         "@commitlint/config-conventional": "^8.2.0",
-        "eslint-plugin-jsdoc": "^27.0.3",
+        "eslint-plugin-jsdoc": "^30.3.3",
         "parcel-plugin-eslint": "^1.0.7",
         "pug": "^3.0.0"
     },
