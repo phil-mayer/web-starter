@@ -1,39 +1,33 @@
 {
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugin:jsdoc/recommended"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 2019,
-    "sourceType": "module"
-  },
-  "plugins": [
-    "jsdoc"
-  ],
-  "rules": {
-    "semi": "error",
-    "jsdoc/check-tag-names": [
-      "warn",
-      {
-        "definedTags": ["link"]
-      }
-    ],
-    "jsdoc/require-jsdoc": [
-      "warn",
-      {
-        "require": {
-          "ClassDeclaration": true,
-          "ClassExpression": true,
-          "FunctionDeclaration": true,
-          "MethodDefinition": true
-        }
-      }
-    ],
-    "jsdoc/require-param-description": 0,
-    "jsdoc/require-returns-description": 0
-  }
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": ["eslint:recommended", "plugin:jsdoc/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module"
+    },
+    "rules": {
+        "semi": "error",
+        "jsdoc/check-tag-names": [
+            "warn",
+            {
+                "definedTags": ["link"]
+            }
+        ],
+        "jsdoc/require-jsdoc": [
+            "warn",
+            {
+                "require": {
+                    "ClassDeclaration": true,
+                    "ClassExpression": true,
+                    "FunctionDeclaration": true,
+                    "MethodDefinition": true
+                }
+            }
+        ],
+        "jsdoc/require-param-description": 0,
+        "jsdoc/require-returns-description": 0
+    }
 }
