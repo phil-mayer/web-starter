@@ -8,8 +8,8 @@ Out of the box, this repository is configured to support SCSS stylesheets, style
 
 ## Requirements
 
--   Node.JS 12.x
--   Yarn
+- Node.JS 12.x
+- Yarn
 
 ## Setup and Usage
 
@@ -25,12 +25,12 @@ Afterwards, run `yarn run-dev` to start a development server and watch for chang
 
 ## Upcoming Changes
 
--   Create a script to eject the cloned project from this repository.
+- Create a script to eject the cloned project from this repository.
 
 ## Suggested Plugins
 
 To extend the functionality of this repo, I've found that the following dependencies have often met my needs:
 
--   Carousels: [Glide.js](https://www.npmjs.com/package/@glidejs/glide)
--   Lazy loading images/videos: [parcel-plugin-data-src](https://www.npmjs.com/package/parcel-plugin-data-src)
--   Various, but mostly debouncing: [lodash](https://www.npmjs.com/package/lodash)
+- Carousels: [Glide.js](https://www.npmjs.com/package/@glidejs/glide)
+- Lazy loading images/videos: [parcel-plugin-data-src](https://www.npmjs.com/package/parcel-plugin-data-src)
+- Various, but mostly debouncing: [lodash](https://www.npmjs.com/package/lodash)
